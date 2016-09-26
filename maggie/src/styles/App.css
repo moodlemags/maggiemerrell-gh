@@ -18,6 +18,18 @@ list-style: none;
   height: 30px;
   border-right-style: double;
 }
+.header-bar li a {
+  color: gray;
+  text-decoration: none;
+}
+.header-bar li a:hover {
+  color: white;
+  background: linear-gradient(270deg, #81ec5a, #3991e6);
+  background-size: 400% 400%;
+  text-decoration: none;
+  animation: hoverHeader 2s ease infinite;
+  /*make animation span the whole bar*/
+}
 
 .last {
   border: none !important;
@@ -39,4 +51,10 @@ list-style: none;
   100% {
     font-size: 0em;
   }
+}
+
+@keyframes hoverHeader {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }

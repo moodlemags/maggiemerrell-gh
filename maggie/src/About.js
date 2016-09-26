@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './styles/About.css';
 import './styles/App.css';
 import { Link } from 'react-router';
 
-class App extends Component {
+class About extends Component {
   render() {
     return (
       <div className="App">
@@ -12,13 +13,17 @@ class App extends Component {
             <li><Link to="/Coding">Coding Projects</Link></li>
             <li><Link to="/Art">Art Projects</Link></li>
             <li><Link to="/Resume">Resume</Link></li>
-            <li className="last"><Link to="/Blog">Blog</Link></li>
+            <li className="last"><Link to="/Contact">Blog</Link></li>
           </ul>
         </div>
-        <h3 className="floating-name">MAGGIE MERRELL</h3>
+        <h3 className="non-float">MAGGIE MERRELL</h3>
+
+        <section className="aboutMaggie">
+          hiya pals
+        </section>
       </div>
     );
   }
 }
 
-export default App;
+export default About;
