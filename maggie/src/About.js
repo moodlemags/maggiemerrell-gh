@@ -13,7 +13,7 @@ class About extends Component {
             <li className="about-animate"><Link to="/Coding">Coding Projects</Link></li>
             <li className="about-animate"><Link to="/Art">Art Projects</Link></li>
             <li className="about-animate"><Link to="/Resume">Resume</Link></li>
-            <li className="last about-animate"><Link to="/Contact">Blog</Link></li>
+            <li className="last about-animate"><Link to="/Blog">Blog</Link></li>
           </ul>
         </div>
         <h3 className="non-float"><Link to="/">MAGGIE MERRELL</Link></h3>

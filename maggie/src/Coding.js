@@ -13,12 +13,12 @@ class Coding extends Component {
             <li className="coding-animate"><Link to="/Coding">Coding Projects</Link></li>
             <li className="coding-animate"><Link to="/Art">Art Projects</Link></li>
             <li className="coding-animate"><Link to="/Resume">Resume</Link></li>
-            <li className="last coding-animate"><Link to="/Contact">Blog</Link></li>
+            <li className="last coding-animate"><Link to="/Blog">Blog</Link></li>
           </ul>
         </div>
         <h3 className="non-float-coding"><Link to="/">MAGGIE MERRELL</Link></h3>
 
-        <section className="aboutMaggie">
+        <section className="about-code">
           here are things that i made with code
         </section>
       </div>

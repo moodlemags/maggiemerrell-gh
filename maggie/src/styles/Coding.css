@@ -2,12 +2,13 @@
   text-decoration: none;
   color: #FCFBE3;
   position: relative;
-  top: -215px;
+  top: -190px;
 
 }
 .non-float-coding {
   text-align: center;
   margin: 200px auto;
+  margin-bottom: -120px;
   font-family: "League-Gothic", Impact;
   font-size: 5em;
   text-transform: uppercase;
@@ -31,4 +32,9 @@
 .coding-animate:nth-of-type(even):hover {
   background-color: #FCFBE3;
   color: #ffd217 !important;
+}
+
+.about-code {
+    display: flex;
+    justify-content: center;
 }
