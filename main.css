@@ -1,0 +1,39 @@
+.container-fluid {
+display: flex;
+justify-content: center;
+padding-top: 25px;
+}
+
+.header-bar {
+list-style: none;
+}
+
+.header-bar li {
+  float: left;
+  font-size: 1.25em;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: black 3px solid;
+  height: 30px;
+  border-right-style: double;
+}
+
+.last {
+  border: none !important;
+}
+
+.floating-name {
+  text-align: center;
+  color: lightblue;
+  font-size: 3em;
+  animation: headerEntrance 3s;
+}
+
+@keyframes headerEntrance {
+  0% {
+    font-size: 11.25em;
+  }
+  100% {
+    font-size: 0em;
+  }
+}
