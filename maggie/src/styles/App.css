@@ -22,7 +22,7 @@ list-style: none;
   color: gray;
   text-decoration: none;
 }
-.header-bar li a:hover {
+.home-animate:hover {
   color: white;
   background: linear-gradient(270deg, #81ec5a, #3991e6);
   background-size: 400% 400%;

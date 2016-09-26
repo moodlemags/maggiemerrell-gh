@@ -9,17 +9,17 @@ class About extends Component {
       <div className="App">
         <div className="container-fluid">
           <ul className="header-bar">
-            <li><Link to="/About">About</Link></li>
-            <li><Link to="/Coding">Coding Projects</Link></li>
-            <li><Link to="/Art">Art Projects</Link></li>
-            <li><Link to="/Resume">Resume</Link></li>
-            <li className="last"><Link to="/Contact">Blog</Link></li>
+            <li className="about-animate"><Link to="/About">About</Link></li>
+            <li className="about-animate"><Link to="/Coding">Coding Projects</Link></li>
+            <li className="about-animate"><Link to="/Art">Art Projects</Link></li>
+            <li className="about-animate"><Link to="/Resume">Resume</Link></li>
+            <li className="last about-animate"><Link to="/Contact">Blog</Link></li>
           </ul>
         </div>
-        <h3 className="non-float">MAGGIE MERRELL</h3>
+        <h3 className="non-float"><Link to="/">MAGGIE MERRELL</Link></h3>
 
         <section className="aboutMaggie">
-          hiya pals
+          hiya pals, here is a bunch about me and my background
         </section>
       </div>
     );
