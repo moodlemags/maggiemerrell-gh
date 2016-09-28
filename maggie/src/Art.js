@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles/Art.css';
-import './styles/App.css';
 import { Link } from 'react-router';
 
 class Art extends Component {
@@ -16,7 +15,7 @@ class Art extends Component {
             <li className="last art-animate"><Link to="/Blog">Blog</Link></li>
           </ul>
         </div>
-        <h3 className="wrapper"><Link to="/"><p>MAGGIE</p><p> MERRELL</p><p>Curator</p></Link></h3>
+        <h3 className="wrapper"><Link to="/"><p>MAGGIE MERRELL</p></Link></h3>
 
         <section className="about-art">
           here are things that i did in the art world

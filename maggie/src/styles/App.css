@@ -10,12 +10,12 @@ list-style: none;
 
 .header-bar li {
   float: left;
-  font-size: 1.1em;
+  font-size: 1.25em;
   padding-right: 20px;
   padding-left: 20px;
   border-right: black 3px solid;
   padding-top: 5px;
-  height: 30px;
+  height: 25px;
   border-right-style: double;
 }
 .header-bar li a {
@@ -38,10 +38,21 @@ list-style: none;
 .floating-name {
   text-align: center;
   color: lightblue;
-  font-size: 3em;
+  font-size: 4em;
   position: relative;
-  top: -45px;
+  top: 50px;
   animation: headerEntrance 3s;
+}
+
+.images-display {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.images-display img {
+  padding: 5px;
 }
 
 @keyframes headerEntrance {

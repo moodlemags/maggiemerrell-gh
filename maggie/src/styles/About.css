@@ -3,11 +3,15 @@
   justify-content: center;
 }
 
+.header-bar li {
+  font-size: .75em;
+}
+
 .non-float {
   text-align: center;
   position: relative;
-  top: -25px;
-  font: 700 4em/1 "Oswald", sans-serif;
+  top: -5px;
+  font: 700 2.5em/1 "Oswald", sans-serif;
   letter-spacing: 0;
   padding: .25em 0 .325em;
   display: block;
