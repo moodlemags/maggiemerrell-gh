@@ -45,20 +45,61 @@
   }
 }
 
-.about-code {
+.guesswho-code {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.guesswho-code > div {
+  padding: 10px;
+  width: 25%;
+}
+
+.guesswho-code > div:first-child {
+  margin-right: 10px;
+  text-align: center;}
+
+.lyricalgenius-code {
   display: flex;
   justify-content: center;
 }
 
-.project-header {
-  font-size: 1.25em;
-}
-header {
-  font-size: 2em;
+.lyricalgenius-code > div {
+	padding: 10px;
+  width: 25%;
 }
 
+.lyricalgenius-code > div:first-child {
+	margin-right: 10px;
+  text-align: center;
+}
 
+.artinder-code {
+  display: flex;
+  justify-content: center;
+}
 
-.coding-projects {
-  width: 40vw;
+.artinder-code > div {
+	padding: 10px;
+  width: 25%;
+}
+
+.artinder-code > div:first-child {
+	margin-right: 10px;
+  text-align: center;
+}
+.allergen-code {
+  display: flex;
+  justify-content: center;
+}
+
+.allergen-code > div {
+	padding: 10px;
+  width: 25%;
+}
+
+.allergen-code > div:first-child {
+	margin-right: 10px;
+  text-align: center;
 }

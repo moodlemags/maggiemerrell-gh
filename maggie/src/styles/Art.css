@@ -13,14 +13,14 @@
   top: -45px;
   font: 700 2.5em/1 "Oswald", sans-serif;
   letter-spacing: 0;
-  padding: .25em 0 .325em;
+  /*padding: .25em 0 .325em;*/
   display: block;
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, .5);
   background: url(https://s-media-cache-ak0.pinimg.com/originals/f1/b8/97/f1b8977755f268cf33fd6091a2e3dc30.jpg) repeat-y;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 80s linear infinite;
+  -webkit-animation: aitf 25s linear infinite;
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
 }
@@ -30,7 +30,7 @@
   background: url(https://www.wellesleyfreelibrary.org/wp-content/uploads/2016/06/space-1.jpg) repeat-y;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: aitf 80s linear infinite;
+  -webkit-animation: aitf 25s linear infinite;
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   text-decoration: none;
@@ -43,4 +43,34 @@
   100% {
     background-position: 100% 50%;
   }
+}
+
+.enticing-code {
+  display: flex;
+  justify-content: center;
+}
+
+.enticing-code > div {
+	padding: 10px;
+  width: 25%;
+}
+
+.enticing-code > div:first-child {
+	margin-right: 10px;
+  text-align: center;
+}
+
+.hair-code {
+  display: flex;
+  justify-content: center;
+}
+
+.hair-code > div {
+	padding: 10px;
+  width: 25%;
+}
+
+.hair-code > div:first-child {
+	margin-right: 10px;
+  text-align: center;
 }

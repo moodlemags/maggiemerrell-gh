@@ -11,8 +11,8 @@ class About extends Component {
             <li className="about-animate"><Link to="/About">About</Link></li>
             <li className="about-animate"><Link to="/Coding">Coding Projects</Link></li>
             <li className="about-animate"><Link to="/Art">Art Projects</Link></li>
-            <li className="about-animate"><a href="https://drive.google.com/file/d/0B226wtsM-2R2QzU2UWlOMERPQm8/view">Resume</a></li>
-            <li className="last about-animate"><Link to="/Blog">Blog</Link></li>
+            <li className="last about-animate"><a href="https://drive.google.com/file/d/0B226wtsM-2R2QzU2UWlOMERPQm8/view">Resume</a></li>
+            {/* <li className="last about-animate"><Link to="/Blog">Blog</Link></li> */}
           </ul>
         </div>
         <h3 className="non-float"><Link to="/">MAGGIE MERRELL</Link></h3>
