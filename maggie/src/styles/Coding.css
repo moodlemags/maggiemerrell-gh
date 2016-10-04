@@ -44,3 +44,21 @@
     background-position: 100% 50%;
   }
 }
+
+.about-code {
+  display: flex;
+  justify-content: center;
+}
+
+.project-header {
+  font-size: 1.25em;
+}
+header {
+  font-size: 2em;
+}
+
+
+
+.coding-projects {
+  width: 40vw;
+}

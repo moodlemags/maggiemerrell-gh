@@ -12,7 +12,7 @@ class Blog extends Component {
             <li className="blog-animate"><Link to="/About">About</Link></li>
             <li className="blog-animate"><Link to="/Coding">Coding Projects</Link></li>
             <li className="blog-animate"><Link to="/Art">Art Projects</Link></li>
-            <li className="blog-animate"><Link to="/Resume">Resume</Link></li>
+            <li className="blog-animate"><a href="https://drive.google.com/file/d/0B226wtsM-2R2QzU2UWlOMERPQm8/view">Resume</a></li>
             <li className="last blog-animate"><Link to="/Blog">Blog</Link></li>
           </ul>
         </div>
